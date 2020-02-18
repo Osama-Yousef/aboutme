@@ -6,6 +6,7 @@
            -webkit-text-size-adjust: 100%;
            -ms-text-size-adjust: 100%;
            margin: 50px 50spx ;
+           overflow: auto;
 
 
            
@@ -38,6 +39,7 @@
             width: fit-content;
 
 
+            
 
         }
         footer{
@@ -52,6 +54,7 @@
             background:red;
             margin: 20px 0;
             padding: 10px 23px;
+            overflow :auto;
 
         }
         
