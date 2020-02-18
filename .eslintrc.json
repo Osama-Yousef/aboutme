@@ -6,6 +6,7 @@
         "impliedStrict": true
       }
       
+      
     },
     "env": {
       "browser": true,
