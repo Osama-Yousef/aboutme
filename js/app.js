@@ -8,7 +8,7 @@ var score = 0;
 
  
 
-
+function myQuestion1(){
  var locat = prompt("are you live in jordan ?  (y/n) or (yes/no)").toLocaleLowerCase();
 
  while (locat !== "yes" && locat !== "no" && locat !== "y" && locat !== "n") {
@@ -19,7 +19,11 @@ var score = 0;
  if (locat === "yes" || locat === "y") { alert("WoW we are in the same country , nice to meet you ");score++; }
  else { alert("Oh noo ! you must visit us!"); }
 
+}
+myQuestion1();
 
+
+function myQuestion2(){
 
  var userInput = prompt("are you feeling good?  (y/n) or (yes/no) ").toLocaleLowerCase();
 
@@ -31,9 +35,14 @@ var score = 0;
 
  if (userInput === "yes" || userInput === "y") { alert(" i wish more good feelings to u ");score++; }
  else { alert(" try to do something you love , you will be better"); }
+}
 
 
 
+myQuestion2();
+
+
+function myQuestion3(){
 
 
  var educ = prompt("do you have education history ?(y/n) or (yes/no)").toLocaleLowerCase();
@@ -46,9 +55,10 @@ var score = 0;
 
  if (educ === "yes" || educ === "y") { alert(" Niiice coz learning is a good thing ");score++; }
  else { alert(" you should work on your self more"); }
+}
+ myQuestion3();
 
-
-
+ function myQuestion4(){
  var job = prompt("do you have job experience ?(y/n) or (yes/no) ").toLocaleLowerCase();
 
  while (job !== "yes" && job !== "no" && job !== "y" && job !== "n") {
@@ -59,7 +69,11 @@ var score = 0;
  if (job === "yes" || job === "y") { alert(" Amaziiing , the experience nowadays is useful to have a job ");score++; }
  else { alert(" So hooow you will get moneyyy!!!"); }
 
+ }
+ myQuestion4();
 
+
+ function myQuestion5(){
 
  var purp = prompt("do you have purposes ?(y/n) or (yes/no) ").toLocaleLowerCase();
 
@@ -72,7 +86,11 @@ var score = 0;
  else { alert(" So why youuu still a live hhh "); }
 
 
+ }
 
+ myQuestion5();
+
+ function myQuestion6(){
 
 for (let j = 0; j <= 3; j++){
 
@@ -92,13 +110,15 @@ break; }
 
 alert(" the correct answer is 15");
 
+ }
+
+ myQuestion6();
 
 
 
 
 
-
-function qSeven() {
+function myQuestion7() {
   var carType = ['bmw', 'kia', 'ford','porsche','lambo','ferrari','audi','honda','mercedes','bentley'];
 
   for (var k = 0; k < 6; k++) {
@@ -117,11 +137,11 @@ function qSeven() {
      
          
     
-     
+
   }
 }
 
-qSeven();
+myQuestion7();
 
 alert('My best car type is : lambo');
 
