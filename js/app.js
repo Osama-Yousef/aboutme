@@ -6,6 +6,7 @@ var score = 0;
  console.log(typeof name);
 
 
+ 
 
 
  var locat = prompt("are you live in jordan ?  (y/n) or (yes/no)").toLocaleLowerCase();
